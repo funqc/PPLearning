@@ -3,7 +3,7 @@ from  paddle.trainer.PyDataProvider2 import *
 import random
 
 # 定义输入数据的类型：2个浮点数
-@provider(input_type=[dense_vector(1), dense_vector(1)], use_seq=False)
+@provider(input_types=[dense_vector(1), dense_vector(1)], use_seq=False)
 def process(settings, input_file):
     for i in xrange(2000):
         x = random.random()
