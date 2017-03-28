@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from  paddle.trainer.PyDateProvider2 import *
+from  paddle.trainer.PyDataProvider2 import *
 import random
 
 # 定义输入数据的类型：2个浮点数
